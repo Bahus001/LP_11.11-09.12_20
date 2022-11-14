@@ -7,6 +7,7 @@
 
 Console.WriteLine ("Введите трехзначное число ");
 int number = Convert.ToInt32(Console.ReadLine());
+number = Math.Abs(number);
 if(number<1000 && number>99)
 {
    number = number%10;
